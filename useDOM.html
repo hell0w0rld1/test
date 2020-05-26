@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8">
+    <title>DOM</title>
+</head>
+
+<body>
+    <h1>Docment Object Model</h1>
+    <dl>
+        <dt>今日の天気</dt>
+        <dd id="weather">晴れ</dd>
+        <dd id="temp">25度</dd>
+    </dl>
+    <script>
+        var element = document.getElementById("weather");
+        var element2 = document.getElementById("temp");
+        // difference of innerHTML, innerText
+        element.innerHTML  = "<span>曇り</span>"
+        element2.innerText  = "<span>20度</span>"
+    </script>
+</body>
+
+</html>
