@@ -3,7 +3,7 @@ print("hello world")
 test_set = {"abc", "def"}
 test_set.add("ghi")
 
-print(test_set)
+print(test_set)  # {'def, 'abc', 'ghi'} ※出力順は実行の都度異なる
 
 
 a = [i for i in range(10)]
